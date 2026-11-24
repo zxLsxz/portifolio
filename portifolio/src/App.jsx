@@ -27,6 +27,7 @@ function App() {
               nome={perfil.nome}
               cidade={perfil.cidade}
               resumo={perfil.resumo}
+              bio={perfil.bio}
             />
              <Card>
               <h3 className="rotulo">Habilidades</h3>

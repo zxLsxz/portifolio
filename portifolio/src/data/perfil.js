@@ -6,4 +6,5 @@ export const perfil = {
     email: 'lucaszx.0315@gmail.com',
     resumo: 'Estou aprendendo react',
     habilidades: ['HTML', 'CSS', 'Bootstrap', 'JavaScript', 'React', 'Git'],
+    bio: 'Ola, sou Lucas Araujo',
 }
