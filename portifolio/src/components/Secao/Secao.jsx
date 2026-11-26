@@ -1,6 +1,6 @@
-function Secao({ children }) {
+function Secao({ children, id, alternada = false }) {
   return (
-    <section className="secao">
+     <section id={id} className={alternada ? 'secao secao--alternada' : 'secao'}>
       <div className="container">{children}</div>
     </section>
   )
